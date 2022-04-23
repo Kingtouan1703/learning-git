@@ -3,8 +3,8 @@ import React from 'react'
 function ComponetC() {
     return (
         <>
-            <div>ComponetC</div>
-            <div>Display</div>
+            <div>make confict</div>
+            <div>make confict</div>
         </>
     )
 }
