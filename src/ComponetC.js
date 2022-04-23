@@ -4,9 +4,11 @@ function ComponetC() {
     return (
         <>
             <div>new ComponetC</div>
-            <div> make conflict when merging </div>
+            <div>overwrite to make conflict</div>
+            <div> how to make conflict</div>
         </>
     )
 }
 
 export default ComponetC
+
