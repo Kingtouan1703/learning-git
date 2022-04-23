@@ -6,13 +6,14 @@ import { createContext, useEffect, useState } from 'react';
 export const AppContext = createContext()
 function App() {
   const [input, setInput] = useState('')
- 
+    
   return (
     <>
       <AppContext.Provider value={{ input  , setInput}}>
         <div >
           <ComponentA />
           <ComponentB />
+          <ComponentC/>
         </div>
       </AppContext.Provider>
     </>
@@ -20,3 +21,4 @@ function App() {
 }
 
 export default App;
+
